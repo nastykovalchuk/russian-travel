@@ -1,5 +1,5 @@
-.header {
-    margin: 28px 48px 65px;
+.footer {
+    margin: 0 48px 24px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

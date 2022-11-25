@@ -1,0 +1,8 @@
+  .cover {
+    background-image: url(../../image/cover-trains.jpg);
+    margin: 0 auto 92px;
+    max-width: 1184px;
+    padding-bottom: 62.5%;
+    background-size: cover;
+    position: relative;
+}
