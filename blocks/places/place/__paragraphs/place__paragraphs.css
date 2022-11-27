@@ -5,3 +5,17 @@
     padding: 0;
     list-style: none;
 }
+
+@media all and (max-width: 902px) {
+    .place__paragraphs {
+        font-size: 16px;
+        line-height: 1.625;
+    }
+}
+
+@media all and (max-width: 675px) {
+    .place__paragraphs {
+        max-width: 100%;
+        margin: 0 16px;
+    }
+}

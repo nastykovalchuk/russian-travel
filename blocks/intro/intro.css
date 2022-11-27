@@ -2,3 +2,21 @@
     margin: 0 auto 92px 148px;
     max-width: 690px;
 }
+
+@media all and (max-width: 1023px) {
+    .intro {
+        margin: 92px 0px 92px 24px;
+    }
+}
+
+@media all and (max-width: 729px) {
+    .intro {
+        margin: 92px 24px 92px 24px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .intro {
+        margin: 64px 16px 64px 16px;
+    }
+}

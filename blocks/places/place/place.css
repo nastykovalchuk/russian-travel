@@ -1,5 +1,12 @@
 .place {
-    margin: 0 0 80px;
-    display: flex;
-    flex-wrap: wrap;
+  margin: 0 0 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 675px) {
+  .place {
+    flex-direction: column;
+    margin: 0 0 48px;
   }
+}

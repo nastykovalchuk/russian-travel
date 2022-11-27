@@ -1,6 +1,12 @@
 .header {
-    margin: 28px 48px 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  margin: 28px 48px 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 46px 48px 54px;
+  }
 }
