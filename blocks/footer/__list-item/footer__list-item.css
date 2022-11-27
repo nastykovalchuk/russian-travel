@@ -4,14 +4,3 @@
     padding: 0;
 }
 
-@media all and (max-width: 750px) {
-    .footer__list-item {
-        margin: 0 0 32px;
-    }
-}
-
-@media all and (max-width: 450px) {
-    .footer__list-item:last-of-type {
-        margin-bottom: 48px;
-    }
-}

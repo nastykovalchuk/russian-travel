@@ -6,21 +6,3 @@
 }
 
 
-@media all and (max-width: 890px) {
-    .footer {
-      margin: 0 24px 24px;
-    }
-  }
-  
-  @media all and (max-width: 842px) {
-    .footer {
-      margin: 0 16px 24px;
-    }
-  }
-  
-  @media all and (max-width: 450px) {
-    .footer {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }

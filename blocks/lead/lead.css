@@ -2,15 +2,8 @@
   max-width: 984px;
   margin: 56px auto 92px;
 }
-
-@media all and (max-width: 1080px) {
+@media screen and (min-width: 768px) {
   .lead {
-    margin: 56px 48px 92px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-  .lead {
-    margin: 56px auto 92px;
+    margin: 0 0 34px;
   }
 }

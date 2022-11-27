@@ -6,23 +6,9 @@
   width: 46%;
 }
 
-@media all and (max-width: 902px) {
+@media screen and (min-width: 768px) {
   .place__title {
     font-size: 42px;
-    line-height: 1.095;
-  }
-}
-
-@media all and (max-width: 675px) {
-  .place__title {
-    max-width: 100%;
-    margin: 0 16px 32px;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .place__title {
-    font-size: 32px;
-    line-height: 1.09;
+    line-height: 46px;
   }
 }

@@ -2,9 +2,3 @@
   margin: 0 0 48px 0;
   align-self: flex-end;
 }
-
-@media all and (max-width: 675px) {
-  .place__website {
-    display: none;
-  }
-}

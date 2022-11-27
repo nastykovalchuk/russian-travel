@@ -5,8 +5,3 @@
     font-weight: 400;
 }
 
-@media all and (max-width: 758px) {
-    .footer__copyright {
-        line-height: 1;
-    }
-}

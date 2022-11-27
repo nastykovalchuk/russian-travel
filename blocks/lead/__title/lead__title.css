@@ -7,16 +7,3 @@
   text-align: center;
 }
 
-@media all and (max-width: 700px) {
-  .lead__title {
-    font-size: 56px;
-    line-height: 1.08;
-  }
-}
-
-@media all and (max-width: 575px) {
-  .lead__title {
-    font-size: 40px;
-    line-height: 1.1;
-  }
-}
