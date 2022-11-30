@@ -6,3 +6,11 @@
     text-align: center;
     align-self: center;
 }
+
+@media (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+    }
+}

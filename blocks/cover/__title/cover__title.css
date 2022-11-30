@@ -7,3 +7,11 @@
     text-align: center;
     align-self: center;
 }
+
+@media (max-width: 767px) {
+    .cover__title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

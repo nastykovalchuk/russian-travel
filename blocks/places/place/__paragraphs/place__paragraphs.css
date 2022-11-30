@@ -1,16 +1,18 @@
 .place__paragraphs {
     font-size: 18px;
     line-height: 1.63;
-    max-width: 49%;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
-@media screen and (min-width: 768px) {
+.place__paragraphs li:first-child {
+    margin-bottom: 26px;
+}
+
+@media (max-width: 767px) {
     .place__paragraphs {
-      max-width: 352px;
-      font-size: 16px;
-      padding: 0;
-      margin: 0;
+        font-size: 16px;
+        margin: 0 16px;
     }
-  }
+}
